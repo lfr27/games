@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:\\\\GitHub\\\\games\")",
+      "Read(//c/GitHub/games/**)"
+    ]
+  }
+}
