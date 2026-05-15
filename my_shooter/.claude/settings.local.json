@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(ls \"C:\\\\GitHub\\\\games\")",
-      "Read(//c/GitHub/games/**)"
+      "Read(//c/GitHub/games/**)",
+      "Bash(Get-ChildItem -Path \"C:\\\\GitHub\\\\games\" -Recurse -Directory)",
+      "Bash(Select-Object FullName)"
     ]
   }
 }
