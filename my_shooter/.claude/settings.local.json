@@ -4,7 +4,9 @@
       "Bash(ls \"C:\\\\GitHub\\\\games\")",
       "Read(//c/GitHub/games/**)",
       "Bash(Get-ChildItem -Path \"C:\\\\GitHub\\\\games\" -Recurse -Directory)",
-      "Bash(Select-Object FullName)"
+      "Bash(Select-Object FullName)",
+      "Bash(gh repo *)",
+      "PowerShell(Invoke-WebRequest -Uri \"https://github.com/lfr27/games\" -Method Head -ErrorAction SilentlyContinue)"
     ]
   }
 }
