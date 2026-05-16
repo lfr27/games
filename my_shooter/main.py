@@ -107,7 +107,7 @@ SHAKE_DURATION         = 18
 SHAKE_MAGNITUDE        = 7
 
 MAX_LEVEL        = 8
-SURVIVE_FRAMES   = 15 * 60   # 900 frames = 15 seconds (test mode)
+SURVIVE_FRAMES   = 45 * 60   # 2700 frames = 45 seconds
 SURVIVE_BONUS    = 50
 BOSS_CLEAR_BONUS = 200
 WORM_SIZE        = 6          # enemies per worm formation
