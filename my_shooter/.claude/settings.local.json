@@ -21,7 +21,8 @@
       "Bash(git fetch *)",
       "Bash(git rebase *)",
       "Bash(git commit -m ' *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git -C \"C:\\\\Users\\\\luisf\\\\OneDrive - PharmaService AS\\\\Dokumenter\\\\GitHub\\\\games\" log --oneline -5)"
     ]
   }
 }
