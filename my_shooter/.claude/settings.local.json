@@ -19,7 +19,9 @@
       "Bash(git -C \"c:\\\\GitHub\\\\games\" branch -vv)",
       "Bash(git -C \"c:\\\\GitHub\\\\games\" fetch origin)",
       "Bash(git fetch *)",
-      "Bash(git rebase *)"
+      "Bash(git rebase *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git add *)"
     ]
   }
 }
