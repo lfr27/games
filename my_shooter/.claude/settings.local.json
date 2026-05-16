@@ -6,7 +6,20 @@
       "Bash(Get-ChildItem -Path \"C:\\\\GitHub\\\\games\" -Recurse -Directory)",
       "Bash(Select-Object FullName)",
       "Bash(gh repo *)",
-      "PowerShell(Invoke-WebRequest -Uri \"https://github.com/lfr27/games\" -Method Head -ErrorAction SilentlyContinue)"
+      "PowerShell(Invoke-WebRequest -Uri \"https://github.com/lfr27/games\" -Method Head -ErrorAction SilentlyContinue)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\\\\my_shooter\" status)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\\\\my_shooter\" log --oneline -5)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\\\\my_shooter\" add main.py README.md assets/enemy_boss.png assets/enemy_fast.png assets/enemy_tough.png build.bat)",
+      "Bash(git -C 'c:\\\\GitHub\\\\games\\\\my_shooter' commit -m ' *)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\" log --oneline -5)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\" status)",
+      "Bash(Test-Path \"c:\\\\GitHub\\\\games\\\\my_shooter\\\\.git\")",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\" log --oneline --all -8)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\" remote -v)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\" branch -vv)",
+      "Bash(git -C \"c:\\\\GitHub\\\\games\" fetch origin)",
+      "Bash(git fetch *)",
+      "Bash(git rebase *)"
     ]
   }
 }
